@@ -1,2 +1,21 @@
 title : Sougata Bhattacharya
 theme : jekyll-theme-minimal
+navbar:
+  title: "Alex Pettis"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Courses"
+      href: "javascript:void(0);"
+      menu:
+        - text: Undergraduate
+          ...
+        - text: Graduate
+          ...
+    - text: "Resume"
+      href: Resume.html
+    - text: "Software"
+      href: Software.html
+output:
+  html_document:
+    theme: yeti
